@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#in{
+    height: 100vh;
+   background-color:white;
+padding: 20px;
+}
+
+nav
+{
+height: 10vh;
+background-color: black;
+color: white;
+width: 100%;
+padding: 10px;
+display: flex;
+justify-content: space-around;
+border-top: 20px;
+}
+nav>h1{
+    text-transform: uppercase;
+    color: rgb(87, 87, 182);
+}
+.home>ul {
+ display: flex;
+ gap: 40px;
+ text-transform: uppercase;
+ padding: 10px;
+ list-style: none;
+ 
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: rgb(231, 40, 40);
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav>h1:hover{
+    color: brown;
+}
+
+.home>ul:hover{
+    cursor: pointer;
+    background-color: rgb(145, 145, 158);
+    color: aqua;
+
+}
+
+.out{
+display: grid;
+grid-template-columns:repeat(3,1fr) ;
+gap: 20px;
+padding: 40px;
+}
+
+article{
+    background-color: rgb(158, 158, 175);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px rgb(51, 47, 47);
+
+}
+article:hover{
+    transform: translate(8px);
+    cursor: pointer;
+    background-color: rgb(87, 95, 95);
+
+}
+
+article h1,article h2{
+    color: black;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+article>ul{
+    list-style: none;
+    text-transform: capitalize;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 30vh;
+    border-top: 50px;
+    gap: 20px;
+    padding: 30px;
+}
+
+footer:hover {
+    background: #172554;
+    transition: 0.4s;
+}
+
+footer>p{
+font-size: 30px;
+word-spacing: 2px;
+}
+
+footer>h1{
+    color: rgb(153, 94, 106);
+    text-transform: uppercase;
+    transition: 0.5px;
+    
+
+}
+
+
+
